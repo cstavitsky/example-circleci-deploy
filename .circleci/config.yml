@@ -64,11 +64,6 @@ jobs:
   deploy:
     executor: heroku/default
     steps:
-      - checkout
-      - heroku/install
-      - run:
-          command: >
-            heroku login
       - heroku/deploy-via-git
 
 # We use workflows to orchestrate the jobs that we declared above.
