@@ -206,7 +206,6 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.1.1)
-    rexml (3.1.9)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
@@ -290,7 +289,6 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.3, >= 6.1.3.2)
-  rexml
   rspec
   sass-rails (>= 6)
   selenium-webdriver
@@ -303,7 +301,7 @@ DEPENDENCIES
   webpacker (~> 5.0)
 
 RUBY VERSION
-   ruby 2.6.3p62
+   ruby 2.7.3p183
 
 BUNDLED WITH
-   1.17.2
+   2.1.4
