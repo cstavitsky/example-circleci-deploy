@@ -154,6 +154,7 @@ GEM
     nokogiri (1.11.4)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
+    pg (1.2.3)
     protobuf-cucumber (3.10.8)
       activesupport (>= 3.2)
       middleware
@@ -242,7 +243,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
     sys-uname (1.2.2)
       ffi (~> 1.1)
     thor (1.1.0)
@@ -285,6 +285,7 @@ DEPENDENCIES
   database_cleaner
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  pg
   pry-rails
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
@@ -293,7 +294,6 @@ DEPENDENCIES
   sass-rails (>= 6)
   selenium-webdriver
   spring
-  sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
