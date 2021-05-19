@@ -68,7 +68,7 @@ jobs:
       - heroku/install
       - run:
           command: >
-            echo "Deploying to heroku..."
+            heroku login
       - heroku/deploy-via-git
 
 # We use workflows to orchestrate the jobs that we declared above.
