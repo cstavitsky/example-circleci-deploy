@@ -64,6 +64,13 @@ jobs:
   deploy:
     executor: heroku/default
     steps:
+      - checkout
+      - run:
+          name: show directory 
+          command: pwd
+      - run:
+          name: look in directory
+          command: ls -ltr
       - heroku/deploy-via-git
 
 # We use workflows to orchestrate the jobs that we declared above.
