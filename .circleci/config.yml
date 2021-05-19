@@ -73,7 +73,7 @@ workflows:
             - build   # Finally, run the build job.
       - heroku/deploy-via-git:
           requires:
-            - build
+            - test
           filters:
             branches:
               only: sequential-branch-filter
